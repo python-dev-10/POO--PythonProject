@@ -1,6 +1,6 @@
 **POO-pythonProject  (CRUD with Flask)**
 
-Application developed for study purposes in the Programming Objject Orientation class of Catholic University of Santa Catarina (Jaraguá do sul).
+Application developed for study purposes in the Programming Object Orientation class of Catholic University of Santa Catarina (Jaraguá do sul).
 
 **_The OOP project is based on the following scenario:_**
 
@@ -8,3 +8,9 @@ The scenario is as follows, the company GetNinjas got in touch with you and need
 
 **DEVELOPERS:**
 _Jeferson Peter_, _Matheus Modro Krueger_, _Rafaella Ballerini Ribeiro Gomes and Vitor Stinghen_
+
+To **RUN** the application, Enter the following commands on your **TERMINAL**:
+
+`python app.py` 
+
+After running this command will appear a url with a final **5000**, that is the standard url used by Flask, click, or copy and paste it in the browser.
