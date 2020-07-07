@@ -14,24 +14,35 @@
             <label>
                 <div class="form-group">
                     <label>NOME:</label>&nbsp;&nbsp;<br>
-                    <input type="text" name="nome" class="form-control" placeholder="Enter Your Name">
+                    <input type="text" name="nome" value="{{ pessoa.nome }}" class="form-control" placeholder="Enter Your Name" >
                 </div>
                 <div class="form-group">
                     <label>TELEFONE:</label>&nbsp;&nbsp;<br>
-                    <input type="text" name="telefone" class="form-control" placeholder="Enter Your Phone">
+                    <input type="text" name="telefone" value="{{ pessoa.telefone }}" class="form-control" placeholder="Enter Your Phone" >
                 </div>
                 <div class="form-group">
                     <label>CPF:</label>&nbsp;&nbsp;<br>
-                    <input type="text" name="cpf" class="form-control" placeholder="Enter Your cpf">
+                    <input type="text" name="cpf" value="{{ pessoa.cpf }}" class="form-control" placeholder="Enter Your cpf" >
                 </div>
                 <div class="form-group">
                     <label>E-mail:</label>&nbsp;&nbsp;<br>
-                    <input type="text" name="email" class="form-control" placeholder="Enter Your E-mail">
+                    <input type="text" name="email" value="{{ pessoa.email }}" class="form-control" placeholder="Enter Your E-mail" >
                 </div>
             <br>
             <input  type="submit" value="Cadastrar" class="btn btn-outline-primary">&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="/" class="btn btn-outline-primary">Voltar</a>
             </label>
         </form>
+    <footer>
+
+  <!-- Copyright -->
+    <div class="fixed-bottom"  >
+  <div class="footer-copyright text-center py-3" >
+    <p> GetNinjas © 2020</p>
+  </div>
+  </div>
+        <!-- Copyright -->
+
+</footer>
     </body>
 </html>
